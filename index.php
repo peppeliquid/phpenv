@@ -1,12 +1,13 @@
 
 <?php
-$ip1 = getenv('REMOTE_ADDR');
-$ip2 = $_ENV['REMOTE_ADDR'];
+$ip1 = getenv('miomysql');
+$ip2 = $_ENV['miomysql'];
 ?>
 
 
 
 <?php
-echo $ip1;
-echo $ip2;
+echo "1:".$ip1;
+echo "<br />";
+echo "2:".$ip2;
 ?>
